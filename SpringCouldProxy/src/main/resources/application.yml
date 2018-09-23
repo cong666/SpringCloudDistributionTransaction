@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: proxy
+eureka:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#path : means all request to /home/.. will be redirected to user's home
+# http://localhost:8888/home -> http://localhost:8083/home
+zuul:
+  routes:
+    userApi:
+      path: /home/**
+      serviceId: user
+      stripPrefix: false

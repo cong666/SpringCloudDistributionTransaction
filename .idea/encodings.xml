@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SpringCloudDataCenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudOrder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudParent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudRegistry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudTicket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudUser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudUser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCouldProxy" charset="UTF-8" />
+  </component>
+</project>
