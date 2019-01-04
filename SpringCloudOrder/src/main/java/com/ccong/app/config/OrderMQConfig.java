@@ -10,6 +10,10 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OrderMQConfig {
+    /*
+    *  start this the OrderService firstly before TicketService
+    *  and UserService which have all the message Queue defined
+    * */
     public static final String NEW_ORDER_QUEUE = "order:new";
     public static final String ORDER_LOCKED = "order:locked";
     public static final String ORDER_PAY = "order:pay";

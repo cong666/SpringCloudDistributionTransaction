@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 /*
 * Call this feign interface from CustomerResource
+* value : SpringCloudOrder -> spring.application.name
+* path : order web service url
 * */
 @Component
 @FeignClient(value = "order", path = "/api/order")
